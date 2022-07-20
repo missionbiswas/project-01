@@ -199,7 +199,7 @@ aside {
 /*----------------------------------footer-part-end-------------------------*/
 
 /*media-query*/
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .header-container {
     flex-direction: column;
     margin-right: 8px;
@@ -260,6 +260,9 @@ aside {
   }
   body {
     width: 273%;
+  }
+  footer {
+    width: 148%;
   }
   .footer-container {
     height: 1200px;
