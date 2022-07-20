@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Edu+VIC+WA+NT+Beginner&display=swap");
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-family: "Caveat", cursive;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.header-container {
+  display: flex;
+  box-sizing: border-box;
+  margin-bottom: 80px;
+  background-color: #0c0229;
+  border-radius: 30px;
+  padding-top: 30px;
+}
+.header-container .div-one {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 170px;
+  color: white;
+}
+.header-container .div-one h1 {
+  font-size: 50px;
+}
+.header-container .div-one p {
+  font-size: 25px;
+}
+.header-container .div-one .button-one {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  transition-property: width;
+  transition-duration: 2s;
+}
+.header-container .div-one .button-one:hover {
+  width: 200px;
+}
+.header-container .div-two {
+  box-sizing: border-box;
+  width: 100%;
+}
+.header-container .div-two img {
+  width: 623px;
+  height: 640px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~header~part~end~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+section {
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.article-container {
+  width: 360px;
+  height: 300px;
+  box-sizing: border-box;
+  background-color: #292d61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.div-one a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 100px;
+  background-color: #cbdede;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: black;
+}
+.article-container .div-one .color {
+  background-color: hsl(270, 31%, 59%);
+  color: white;
+}
+
+aside {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.aside-container {
+  background-color: #ede6e6;
+  width: 300px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px gainsboro;
+  padding-left: 4px;
+  padding-top: 6px;
+  padding-bottom: 10px;
+}
+.aside-container .div-one img {
+  width: 275px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.aside-container .div-two {
+  padding: 15px;
+}
+.aside-container .div-two .button-one {
+  padding: 6px 20px;
+  border-radius: 10px;
+}
+.aside-container .div-three {
+  padding-left: 15px;
+}
+.aside-container .div-four {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.aside-container .div-four .one {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.aside-container .div-four .two {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+/*---------------------------------------hidden-part----------------------------------------*/
+
+.hidden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.hidden .div-one button {
+  padding: 15px 40px;
+  background-color: #292d61;
+  color: white;
+  border-radius: 8px;
+}
+
+/*------------------------------second-file-work-end---------------------------------*/
+
+.aside-container .container-one {
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+  padding-top: 20px;
+}
+.aside-container .container-one .div-one img {
+  width: 109px;
+  height: 80px;
+}
+.aside-container .container-one .div-one {
+  margin-right: 5px;
+}
+.aside-container .container-two {
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+/*-------------------------------------main-part-end-------------------------------*/
+
+.footer-container {
+  height: 450px;
+  background-color: black;
+  color: white;
+  font-family: "Caveat", cursive;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.footer-container .div-one {
+  text-align: center;
+  padding-top: 40px;
+  border-bottom: 1px solid gray;
+  font-size: 30px;
+}
+.footer-container .div-two {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  font-size: 20px;
+}
+.footer-container .div-three {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding-top: 30px;
+}
+.footer-container .div-three .red {
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+/*----------------------------------footer-part-end-------------------------*/
+
+/*media-query*/
+@media screen and (max-width: 480px) {
+  .header-container {
+    flex-direction: column;
+    margin-right: 8px;
+  }
+  .header-container .div-one {
+    padding-left: 240px;
+  }
+  .header-container .div-one h1 {
+    font-size: 70px;
+  }
+  .header-container .div-one p {
+    font-size: 40px;
+  }
+  .header-container .div-two {
+    margin-top: 80px;
+    padding-left: 350px;
+  }
+  section {
+    flex-direction: column;
+  }
+  .article-container {
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 90px;
+  }
+  .article-container .div-one a {
+    font-size: 40px;
+  }
+  aside {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .aside-container {
+    width: 96%;
+    height: 800px;
+    margin-left: 29px;
+    margin-bottom: 50px;
+    height: 1010px;
+  }
+  .aside-container .div-one img {
+    width: 1100px;
+    padding-left: 150px;
+    padding-top: 30px;
+  }
+  .aside-container .div-two .button-one {
+    font-size: 50px;
+    margin-left: 135px;
+    margin-top: 5px;
+  }
+  .aside-container .div-three {
+    margin-left: 140px;
+  }
+  .aside-container .div-three h3 {
+    font-size: 40px;
+  }
+  .aside-container .div-four {
+    font-size: 50px;
+    margin-left: 140px;
+  }
+  body {
+    width: 273%;
+  }
+  .footer-container {
+    height: 1200px;
+    border-radius: 15px;
+  }
+  .footer-container .div-one h1 {
+    font-size: 90px;
+  }
+  .footer-container .div-two {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container .div-two p {
+    font-size: 30px;
+  }
+  .footer-container .div-three .red {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+  }
+}
