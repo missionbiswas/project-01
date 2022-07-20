@@ -258,15 +258,10 @@ aside {
     font-size: 50px;
     margin-left: 140px;
   }
-  body {
-    width: 273%;
-  }
-  footer {
-    width: 148%;
-  }
   .footer-container {
     height: 1200px;
     border-radius: 15px;
+    width: 283%;
   }
   .footer-container .div-one h1 {
     font-size: 90px;
