@@ -278,4 +278,38 @@ aside {
     width: 60px;
     margin-right: 15px;
   }
+  .aside-container .container-one .div-one img {
+    width: 511px;
+    height: 233px;
+  }
+  .aside-container .container-one .div-three img {
+    width: 400px;
+    height: 190px;
+  }
+  .aside-container .div-two {
+    font-size: 50px;
+  }
+  .aside-container .container-two {
+    font-size: 50px;
+    margin-left: 287px;
+    padding-left: 42px;
+  }
+  .aside-container .div-three {
+    margin-left: 56px;
+  }
+  .aside-container .div-two {
+    margin-left: 20px;
+  }
+  .aside-container .div-three h3 {
+    padding-left: 80px;
+  }
+  .aside-container .div-four .two {
+    height: 50px;
+    margin-left: 53px;
+  }
+  .aside-container .div-four .one {
+    height: 50px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
 }
