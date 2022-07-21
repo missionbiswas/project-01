@@ -312,4 +312,34 @@ aside {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  .header-container {
+    margin-right: 10px;
+  }
+  section {
+    flex-direction: column;
+  }
+  .article-container {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .article-container .div-one {
+    display: flex;
+  }
+  aside {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .aside-container {
+    width: 495px;
+    margin-left: 73px;
+  }
+
+  element.style {
+  }
+  .aside-container .div-one img {
+    width: 477px;
+  }
+  body {
+    width: 175%;
+  }
 }
